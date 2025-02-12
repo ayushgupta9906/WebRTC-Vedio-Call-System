@@ -1,27 +1,19 @@
 {
-  "name": "web",
-  "version": "1.0.0",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ayushgupta9906/WebRTC-Vedio-Call-System.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/ayushgupta9906/WebRTC-Vedio-Call-System/issues"
-  },
-  "homepage": "https://github.com/ayushgupta9906/WebRTC-Vedio-Call-System#readme",
-  "description": "",
-  "dependencies": {
-    "express": "^4.21.2",
-    "nodemon": "^3.1.9",
-    "socket.io": "^4.8.1"
-  }
+	"name": "VideoChat",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "nodemon server.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"cors": "^2.8.5",
+		"express": "^4.17.1",
+		"nodemon": "^2.0.7",
+		"socket.io": "^3.1.1"
+	}
 }

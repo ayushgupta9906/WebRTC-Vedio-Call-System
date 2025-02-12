@@ -1,78 +1,59 @@
-# Video Call App using React, WebRTC, and Socket.io
+# Video Chat App using React, Node, WebRTC, and Socket.io
 
-This project is a video call application built with React, WebRTC, and Socket.io. It allows users to connect and communicate via video calls in real-time.
+This project is a video chat application built with React for the frontend, Node.js for the backend, WebRTC for real-time communication, and Socket.io for signaling.
 
-## Features
+## Available Scripts
 
-- Real-time video and audio communication
-- Peer-to-peer connection using WebRTC
-- Signaling server with Socket.io
-- User-friendly interface
+In the project directory, you can run:
 
-## Technologies Used
+### `yarn start`
 
-- React
-- WebRTC
-- Socket.io
-- Node.js (for the signaling server)
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## Getting Started
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-### Prerequisites
+### `yarn server`
 
-- Node.js installed on your machine
-- npm or yarn package manager
+Starts the Node.js server for handling signaling with Socket.io.\
+Make sure to run this command in a separate terminal.
 
-### Installation
+### `yarn test`
 
-1. Clone the repository:
-    ```sh
-    git clone https://github.com/yourusername/video-call-app.git
-    ```
-2. Navigate to the project directory:
-    ```sh
-    cd video-call-app
-    ```
-3. Install the dependencies:
-    ```sh
-    npm install
-    ```
-    or
-    ```sh
-    yarn install
-    ```
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://reactjs.org/docs/testing.html) for more information.
 
-### Running the Application
+### `yarn build`
 
-1. Start the signaling server:
-    ```sh
-    node server.js
-    ```
-2. Start the React development server:
-    ```sh
-    npm start
-    ```
-    or
-    ```sh
-    yarn start
-    ```
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-### Usage
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-- Open your browser and navigate to `http://localhost:3000`
-- Share the generated room ID with the person you want to call
-- Enjoy your video call!
+### `yarn eject`
 
-## Contributing
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-Contributions are welcome! Please fork the repository and create a pull request with your changes.
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-## License
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-This project is licensed under the MIT License.
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Acknowledgements
+## Learn More
 
-- [React](https://reactjs.org/)
-- [WebRTC](https://webrtc.org/)
-- [Socket.io](https://socket.io/)
+You can learn more in the [React documentation](https://reactjs.org/docs/getting-started.html).
+
+To learn more about WebRTC, check out the [WebRTC documentation](https://webrtc.org/).
+
+To learn more about Socket.io, check out the [Socket.io documentation](https://socket.io/docs/).
+
+### Deployment
+
+This section has moved here: [https://reactjs.org/docs/deployment.html](https://reactjs.org/docs/deployment.html)
+
+### Troubleshooting
+
+This section has moved here: [https://reactjs.org/docs/troubleshooting.html](https://reactjs.org/docs/troubleshooting.html)
