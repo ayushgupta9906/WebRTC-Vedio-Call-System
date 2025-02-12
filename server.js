@@ -26,3 +26,7 @@ io.on("connection", (socket) => {
 })
 
 server.listen(5000, () => console.log("server is running on port 5000"))
+
+//socket.io- defined as the function that is called when a new connection is made.
+//peer.on- for the peer server to listen for a connection event.
+
