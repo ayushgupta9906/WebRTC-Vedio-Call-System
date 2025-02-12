@@ -1,12 +1,8 @@
 # Video Call App using React, WebRTC, and Socket.io
 
-![Video Call App](https://via.placeholder.com/800x400.png?text=Video+Call+App)
-
 This project is a video call application built with React, WebRTC, and Socket.io. It allows users to connect and communicate via video calls in real-time.
 
 ## Features
-
-![Features](https://via.placeholder.com/800x200.png?text=Features)
 
 - Real-time video and audio communication
 - Peer-to-peer connection using WebRTC
@@ -14,8 +10,6 @@ This project is a video call application built with React, WebRTC, and Socket.io
 - User-friendly interface
 
 ## Technologies Used
-
-![Technologies](https://via.placeholder.com/800x200.png?text=Technologies+Used)
 
 - React
 - WebRTC
@@ -39,6 +33,12 @@ This project is a video call application built with React, WebRTC, and Socket.io
     ```sh
     cd video-call-app
     ```
+3. Install the dependencies:
+    ```sh
+    npm install
+    ```
+    or
+    ```sh
     yarn install
     ```
 
